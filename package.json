@@ -1,7 +1,7 @@
 {
   "name": "ishare-client",
   "version": "0.1.0",
-  "homepage": "https://Tom-254.github.io/I-Share",
+  "homepage": "https://Tom-254.github.io/ishare-client",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

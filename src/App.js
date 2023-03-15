@@ -1,5 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -27,7 +28,10 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <div className="main">
-      <RouterProvider router={router} />
+      <HashRouter>
+        <RouterProvider router={router} />
+      </HashRouter>
+
     </div>
   );
 };
